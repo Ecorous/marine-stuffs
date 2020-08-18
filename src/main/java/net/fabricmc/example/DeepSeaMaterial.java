@@ -10,9 +10,9 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-enum DeepSeaMaterial implements ArmorMaterial
+public enum DeepSeaMaterial implements ArmorMaterial
 {
-    ;
+
     private static final int[] baseDurability = {13, 15, 16, 11};
     private final String name;
     private final int durabilityMultiplier;
