@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+ package net.fabricmc.example;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -10,8 +10,9 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum DeepSeaMaterial implements ArmorMaterial
+enum DeepSeaMaterial implements ArmorMaterial
 {
+    ;
     private static final int[] baseDurability = {13, 15, 16, 11};
     private final String name;
     private final int durabilityMultiplier;
@@ -22,7 +23,7 @@ public enum DeepSeaMaterial implements ArmorMaterial
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredient;
 
-    CustomArmorMaterial(String name, int durabilityMultiplier, int[] armorValueArr, int enchantability, SoundEvent soundEvent, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    DeepSeaMaterial(String name, int durabilityMultiplier, int[] armorValueArr, int enchantability, SoundEvent soundEvent, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.armorValues = armorValueArr;
