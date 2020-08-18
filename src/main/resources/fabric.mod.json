@@ -3,10 +3,10 @@
   "id": "wraith",
   "version": "${version}",
 
-  "name": "Immersive Wraithdom",
-  "description": "A mod that adds my take on Intelligent Undead",
+  "name": "Marine Stuffs",
+  "description": "A mod that adds various stuffs marine.",
   "authors": [
-    "Odium", "mashy"
+    "Odium", "Explorer 8"
   ],
   "contact": {
     "homepage": "",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.odium.wraithdom.Wraithdom"
+      "com.odium.marine.Marine"
     ]
   },
   "mixins": [
