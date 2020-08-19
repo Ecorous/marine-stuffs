@@ -5,7 +5,7 @@ import net.fabricmc.api.ModInitializer;
 
 public class Marine implements ModInitializer {
 
-    public static String MOD_ID = "mstuff";
+    public static String ID = "mstuff";
 
     @Override
     public void onInitialize() {
