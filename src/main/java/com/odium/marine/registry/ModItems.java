@@ -1,9 +1,7 @@
 package com.odium.marine.registry;
 
 import com.odium.marine.Marine;
-import com.odium.marine.armors.DeepSeaMaterial;
-import com.odium.marine.armors.DolphinMaterial;
-import com.odium.marine.armors.NautilusShellMaterial;
+import com.odium.marine.armors.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -18,7 +16,7 @@ public class ModItems {
 
     public static final Item DOLPHIN_LEATHER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
-    public static final Item DOLPHIN_BOOTS= new ArmorItem(DolphinMaterial.DolphinLeatherMaterial.DOLPHINLEATHER, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item DOLPHIN_BOOTS= new DolphinSuperArmor();
 
     public static final Item SEA_HELMET = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SEA_CHESTPLATE = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
@@ -26,7 +24,7 @@ public class ModItems {
     public static final Item SEA_BOOTS = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
     public static final Item SHELL_HELMET = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item SHELL_CHESTPLATE = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SHELL_CHESTPLATE = new ShellSuperArmor();
     public static final Item SHELL_LEGGINGS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SHELL_BOOTS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
