@@ -11,7 +11,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum DeepSeaMaterial implements ArmorMaterial
-{
+{;
 
     private static final int[] baseDurability = {13, 15, 16, 11};
     private final String name;
@@ -40,7 +40,7 @@ public enum DeepSeaMaterial implements ArmorMaterial
     }
 
     public int getProtectionAmount(EquipmentSlot equipmentSlot_1) {
-        return this.protectionAmounts[equipmentSlot_1.getEntitySlotId()];
+        return this.armorValues[equipmentSlot_1.getEntitySlotId()];
     }
 
     public int getEnchantability() {
