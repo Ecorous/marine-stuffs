@@ -49,16 +49,6 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_boots"), SHELL_BOOTS);
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"dolphin_boots"), DOLPHIN_BOOTS);
 
-        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "ceviche"), CEVICHE);
-        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "fugu"), FUGU);
-        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "sea_helmet"), SEA_HELMET);
-        Registry.register(Registry.ITEM,new Identifier(Marine.ID,"sea_chestplate"), SEA_CHESTPLATE);
-        Registry.register(Registry.ITEM,new Identifier(Marine.ID,"sea_leggings"), SEA_LEGGINGS);
-        Registry.register(Registry.ITEM,new Identifier(Marine.ID,"sea_boots"), SEA_BOOTS);
-        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "shell_helmet"), SHELL_HELMET);
-        Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_chestplate"), SHELL_CHESTPLATE);
-        Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_leggings"), SHELL_LEGGINGS);
-        Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_boots"), SHELL_BOOTS);
 
     }
 }
