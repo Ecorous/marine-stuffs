@@ -34,7 +34,6 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_chestplate"), SHELL_CHESTPLATE);
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_leggings"), SHELL_LEGGINGS);
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_boots"), SHELL_BOOTS);
-
     }
 }
 
