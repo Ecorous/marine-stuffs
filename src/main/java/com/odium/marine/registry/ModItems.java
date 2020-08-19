@@ -11,6 +11,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item CEVICHE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(5).saturationModifier(6).build()));
     public static final Item FUGU = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(8).saturationModifier(10).build()));
+    public static final Item FISH_BOWL = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(12).saturationModifier(20).build()));
+    public static final Item CALAMARI = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(1).build()));
+    public static final Item COOKED_CALAMARI = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(6).saturationModifier(12).build()));
+
     public static final Item DOLPHIN_LEATHER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     public static final Item SEA_HELMET = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
@@ -29,6 +33,10 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "ceviche"), CEVICHE);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "fugu"), FUGU);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "fish_bowl"), FISH_BOWL);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "raw_calamari"), CALAMARI);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "calamari"), COOKED_CALAMARI);
+
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "dolphin_leather"), DOLPHIN_LEATHER);
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "sea_helmet"), SEA_HELMET);
