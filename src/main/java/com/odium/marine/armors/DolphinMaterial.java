@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 public class DolphinMaterial {
     public enum DolphinLeatherMaterial implements ArmorMaterial {
-        DOLPHIN_LEATHER("dolphin_leather", 33, new int[] {1,2,3,1}, 25, SoundEvents.BLOCK_CONDUIT_ACTIVATE, 0f, 0f, () -> {
+        DOLPHINLEATHER("dolphinleather", 33, new int[] {1,2,3,1}, 25, SoundEvents.BLOCK_CONDUIT_ACTIVATE, 0f, 0f, () -> {
             return Ingredient.ofItems(Items.NAUTILUS_SHELL);
         });
         private static final int[] baseDurability = {13, 15, 16, 11};

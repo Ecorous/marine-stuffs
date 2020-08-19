@@ -18,7 +18,7 @@ public class ModItems {
 
     public static final Item DOLPHIN_LEATHER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
-    public static final Item DOLPHIN_BOOTS= new ArmorItem(DolphinMaterial.DolphinLeatherMaterial.DOLPHIN_LEATHER, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item DOLPHIN_BOOTS= new ArmorItem(DolphinMaterial.DolphinLeatherMaterial.DOLPHINLEATHER, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
     public static final Item SEA_HELMET = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SEA_CHESTPLATE = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
