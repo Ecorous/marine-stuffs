@@ -2,6 +2,7 @@ package com.odium.marine.registry;
 
 import com.odium.marine.Marine;
 import com.odium.marine.armors.DeepSeaMaterial;
+import com.odium.marine.armors.NautilusShellMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -14,6 +15,10 @@ public class ModItems {
     public static final Item SEA_CHESTPLATE = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SEA_LEGGINGS = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SEA_BOOTS = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SHELL_HELMET = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SHELL_CHESTPLATE = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SHELL_LEGGINGS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SHELL_BOOTS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
 
 
@@ -25,6 +30,10 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"sea_chestplate"), SEA_CHESTPLATE);
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"sea_leggings"), SEA_LEGGINGS);
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"sea_boots"), SEA_BOOTS);
+        Registry.register(Registry.ITEM, new Identifier(Marine.MOD_ID, "shell_helmet"), SHELL_HELMET);
+        Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"shell_chestplate"), SHELL_CHESTPLATE);
+        Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"shell_leggings"), SHELL_LEGGINGS);
+        Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"shell_boots"), SHELL_BOOTS);
     }
 }
 
