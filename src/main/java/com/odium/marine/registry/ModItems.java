@@ -19,7 +19,7 @@ public class ModItems {
     public static final Item SHELL_CHESTPLATE = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SHELL_LEGGINGS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SHELL_BOOTS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
-
+    public static final Item DOLPHIN_BOOTS = new ArmorItem(ArmorMaterials.LEATHER, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
 
     public static void RegisterItems(){
@@ -34,6 +34,7 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"shell_chestplate"), SHELL_CHESTPLATE);
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"shell_leggings"), SHELL_LEGGINGS);
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"shell_boots"), SHELL_BOOTS);
+        Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"dolphin_boots"), DOLPHIN_BOOTS);
     }
 }
 

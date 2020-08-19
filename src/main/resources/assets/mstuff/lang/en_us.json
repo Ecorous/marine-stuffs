@@ -2,7 +2,12 @@
   "item.mstuff.fugu": "Fugu",
   "item.mstuff.ceviche": "Ceviche",
   "item.mstuff.sea_helmet": "Deep Sea Helmet",
-  "item.mstuff.sea_chestplate": "Deep Sea Chestpiece",
+  "item.mstuff.sea_chestplate": "Deep Sea Chestplate",
   "item.mstuff.sea_leggings": "Deep Sea Leggings",
-  "item.mstuff.sea_boots": "Deep Sea Boots"
+  "item.mstuff.sea_boots": "Deep Sea Boots",
+  "item.mstuff.shell_boots": "Nautilus Shell Boots",
+  "item.mstuff.shell_leggings": "Nautilus Shell Leggings",
+  "item.mstuff.shell_chestplate": "Conduit Chestplate",
+  "item.mstuff.shell_helmet": "Nautilus Shell Helmet"
+
 }
