@@ -11,6 +11,8 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item CEVICHE = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(5).saturationModifier(6).build()));
     public static final Item FUGU = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(8).saturationModifier(10).build()));
+    public static final Item DOLPHIN_LEATHER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+
     public static final Item SEA_HELMET = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SEA_CHESTPLATE = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SEA_LEGGINGS = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
@@ -26,6 +28,8 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(Marine.MOD_ID, "ceviche"), CEVICHE);
         Registry.register(Registry.ITEM, new Identifier(Marine.MOD_ID, "fugu"), FUGU);
+        Registry.register(Registry.ITEM, new Identifier(Marine.MOD_ID, "dolphin_leather"), DOLPHIN_LEATHER);
+
         Registry.register(Registry.ITEM, new Identifier(Marine.MOD_ID, "sea_helmet"), SEA_HELMET);
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"sea_chestplate"), SEA_CHESTPLATE);
         Registry.register(Registry.ITEM,new Identifier(Marine.MOD_ID,"sea_leggings"), SEA_LEGGINGS);

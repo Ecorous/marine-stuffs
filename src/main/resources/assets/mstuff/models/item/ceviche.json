@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wraith:items/ceviche"
+    "layer0": "mstuff:items/ceviche"
   }
 }

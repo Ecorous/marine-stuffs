@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/fugu"
+    "layer0": "mstuff:items/sea_leggings"
   }
 }
