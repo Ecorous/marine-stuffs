@@ -1,20 +1,23 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " PP",
-    " CP",
-    "C  "
-  ],
-  "key": {
-    "P": {
-      "item": "minecraft:prismarine_shard"
+    "type": "crafting_shaped",
+    "pattern": [
+        "QQQ",
+        "PDP",
+        "PDP"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "Q": {
+            "item": "minecraft:prismarine_crystals"
+        }
     },
-    "C": {
-      "item": "minecraft:prismarine_crystals"
+    "result": {
+        "item": "minecraft:trident",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "mstuffs:trident",
-    "count": 1
-  }
 }
