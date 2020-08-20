@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "wraith",
+  "id": "mstuff",
   "version": "${version}",
 
   "name": "Marine Stuffs",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/wraith/icon.png",
+  "icon": "assets/mstuff/icon.png",
 
   "environment": "*",
   "entrypoints": {
