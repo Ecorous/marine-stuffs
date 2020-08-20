@@ -18,5 +18,12 @@
   "item.mstuff.prism_chest": "Prismarine Chain Chestplate",
   "item.mstuff.prism_legs": "Prismarine Chain Leggings",
   "item.mstuff.prism_boots": "Prismarine Boots",
-  "item.mstuff.conduit_charm": "Conduit Charm"
+  "item.mstuff.conduit_charm": "Conduit Charm",
+  "item.mstuff.typhorite_block": "Typhorite Block",
+  "item.mstuff.roasted_seagrass_block": "Roasted Seagrass Block",
+  "item.mstuff.kelp_block": "Kelp Block",
+  "item.mstuff.seagrass_block": "Seagrass Block",
+  "item.mstuff.scute_block": "Scute Block",
+  "item.mstuff.typhorite_ingot": "Typhorite Ingot",
+  "item.mstuff.typhorite_scrap": "Typhorite Scrap"
 }
