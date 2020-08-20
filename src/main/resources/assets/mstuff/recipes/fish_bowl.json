@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "SFS",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    },
+    "F": {
+      "tag": "minecraft:fishes"
+    },
+    "M": {
+      "tag": "minecraft:small_flowers"
+    }
+  },
+  "result": {
+    "item": "mstuffs:fish_bowl",
+    "count": 1
+  }
+}

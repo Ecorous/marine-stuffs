@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern": [
+"MMM",
+"MFM",
+"MMM"
+],
+"key": {
+"F": {
+"item": "minecraft:heart_of_the_sea"
+},
+"M": {
+"item": "mstuff.dolphin_leather"
+}
+},
+"result": {
+"item": "mstuff:dolphin_charm",
+"count": 1
+}
+}

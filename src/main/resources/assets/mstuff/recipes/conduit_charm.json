@@ -1,0 +1,20 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern": [
+"MMM",
+"MFM",
+"MMM"
+],
+"key": {
+"F": {
+"item": "minecraft:conduit"
+},
+"M": {
+"item": "minecraft:prismarine"
+}
+},
+"result": {
+"item": "mstuff:conduit_charm",
+"count": 1
+}
+}
