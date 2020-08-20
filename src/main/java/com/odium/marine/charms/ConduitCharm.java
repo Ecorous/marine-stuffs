@@ -1,5 +1,5 @@
-package com.odium.marine.armors;
-
+package com.odium.marine.charms;
+                                                                                  
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
@@ -11,16 +11,18 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class DolphinSuperArmor extends ArmorItem {
-    public DolphinSuperArmor() {
-        super(DolphinMaterial.DolphinLeatherMaterial.DOLPHINLEATHER, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
+
+public class ConduitCharm extends Item {
+    public ConduitCharm() {
+        super((new Item.Settings().group(ItemGroup.TOOLS)));
     }
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         super.inventoryTick(stack, world, entity, slot, selected);
-        if (entity instanceof LivingEntity && !((LivingEntity) entity).hasStatusEffect(StatusEffects.DOLPHINS_GRACE)) {
-            ((LivingEntity) entity).addStatusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 1, 0));
+        if (entity instanceof LivingEntity && !((LivingEntity) entity).hasStatusEffect(StatusEffects.CONDUIT_POWER)) {
+            ((LivingEntity) entity).addStatusEffect(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 1, 0));
         }
     }
 }
+
