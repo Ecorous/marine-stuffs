@@ -4,6 +4,9 @@ import com.odium.marine.Marine;
 import com.odium.marine.armors.*;
 import com.odium.marine.charms.ConduitCharm;
 import com.odium.marine.charms.DolphinCharm;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -37,6 +40,8 @@ public class ModItems {
     public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
 
+
+
     public static void RegisterItems(){
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "ceviche"), CEVICHE);
@@ -63,6 +68,8 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_chest"), PRISM_CHEST);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_legs"), PRISM_LEGS);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_boots"), PRISM_BOOTS);
+
+
 
     }
 }
