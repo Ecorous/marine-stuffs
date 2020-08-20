@@ -28,6 +28,10 @@ public class ModItems {
     public static final Item SHELL_LEGGINGS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SHELL_BOOTS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
+    public static final Item PRISM_HELM = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item PRISM_CHEST = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item PRISM_LEGS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
 
     public static void RegisterItems(){
@@ -50,6 +54,12 @@ public class ModItems {
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_chestplate"), SHELL_CHESTPLATE);
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_leggings"), SHELL_LEGGINGS);
         Registry.register(Registry.ITEM,new Identifier(Marine.ID,"shell_boots"), SHELL_BOOTS);
+
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_helm"), PRISM_HELM);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_helm"), PRISM_CHEST);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_helm"), PRISM_LEGS);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_helm"), PRISM_BOOTS);
+
     }
 }
 
