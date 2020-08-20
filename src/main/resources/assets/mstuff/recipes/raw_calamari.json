@@ -5,11 +5,11 @@
       "item": "minecraft:wheat"
     },
     {
-      "item": "mstuff:calamari"
+      "item": "mstuff:raw_calamari"
     }
   ],
       "result": {
-        "item": "mstuff:calamari",
+        "item": "mstuff:raw_calamari",
         "count": "2"
       }
 }
