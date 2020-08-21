@@ -1,0 +1,36 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			},
+			{
+				"item": "mstuff:typhorite_nugget"
+			}
+		],
+		"result": {
+			"item": "mstuff:typhorite_ingot",
+		"count": 1
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+			{
+				"item": "mstuff:typhorite_scrap"
+			},
+			{
+				"item": "minecraft:prismarine_crystals"
+			},
+			{
+				"item": "minecraft:prismarine_crystals"
+			},
+			{
+				"item": "minecraft:prismarine_crystals"
+			},
+			{
+				"item": "minecraft:prismarine_crystals"
+			},
+			{
+				"item": "minecraft:prismarine_crystals"
+			},
+			{
+				"item": "minecraft:prismarine_crystals"
+			}
+		],
+		"result": {
+			"item": "mstuff:typhorite_nugget",
+		"count": 1
+	}
+}

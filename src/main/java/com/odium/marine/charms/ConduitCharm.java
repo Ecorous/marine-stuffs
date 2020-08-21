@@ -1,11 +1,9 @@
 package com.odium.marine.charms;
                                                                                   
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,7 +12,7 @@ import net.minecraft.world.World;
 
 public class ConduitCharm extends Item {
     public ConduitCharm() {
-        super((new Item.Settings().group(ItemGroup.TOOLS)));
+        super((new Item.Settings().group(ItemGroup.TOOLS).maxCount(1)));
     }
 
     @Override

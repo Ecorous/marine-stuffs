@@ -18,6 +18,9 @@ public class ModItems {
     public static final Item FISH_BOWL = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(12).saturationModifier(14).build()));
 
     public static final Item DOLPHIN_LEATHER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.RARE));
+    public static final Item TYPHORITE_NUGGET = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.RARE));
 
     public static final Item DOLPHIN_CHARM= new DolphinCharm();
     public static final Item CONDUIT_CHARM= new ConduitCharm();
@@ -42,13 +45,10 @@ public class ModItems {
     public static final Item PRISM_LEGS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
-    public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.EPIC));
-    public static final Item TYPHORITE_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.RARE));
-
     public static final Item TYPHORITE_SWORD = new SwordItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 8, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_SHOVEL = new ShovelItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_PICKAXE = new PickaxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
-    public static final Item TYPHORITE_AXE = new AxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 9, 1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_AXE = new AxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 9, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
 
     public static void RegisterItems(){
 
@@ -84,6 +84,7 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_ingot"), TYPHORITE_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_scrap"), TYPHORITE_SCRAP);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_nugget"), TYPHORITE_NUGGET);
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_sword"), TYPHORITE_SWORD);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_shovel"), TYPHORITE_SHOVEL);
