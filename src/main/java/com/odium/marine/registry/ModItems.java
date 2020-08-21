@@ -4,9 +4,6 @@ import com.odium.marine.Marine;
 import com.odium.marine.armors.*;
 import com.odium.marine.charms.ConduitCharm;
 import com.odium.marine.charms.DolphinCharm;
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -39,10 +36,10 @@ public class ModItems {
     public static final Item PRISM_LEGS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
-    public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MISC));
-    public static final Item TYPHORITE_SCRAP = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item TYPHORITE_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
-
+    public static final Item Typhorite_Trident = new Item(new Item.Settings().group(ItemGroup.COMBAT).maxCount(1).maxDamage(12));
 
     public static void RegisterItems(){
 
@@ -73,6 +70,7 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_ingot"), TYPHORITE_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_scrap"), TYPHORITE_SCRAP);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_trident"), Typhorite_Trident);
 
     }
 }
