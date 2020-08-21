@@ -6,6 +6,9 @@
   "item.mstuff.calamari": "Calamari",
 
   "item.mstuff.dolphin_leather": "Dolphin Leather",
+  "item.mstuff.typhorite_ingot": "Typhorite Ingot",
+  "item.mstuff.typhorite_scrap": "Typhorite Scrap",
+  "item.mstuff.typhorite_nugget": "Typhorite Nugget",
 
   "item.mstuff.sea_helmet": "Deep Sea Helmet",
   "item.mstuff.sea_chestplate": "Deep Sea Chestplate",
@@ -31,9 +34,6 @@
   "block.mstuff.kelp_block": "Kelp Block",
   "block.mstuff.seagrass_block": "Seagrass Block",
   "block.mstuff.scute_block": "Scute Block",
-
-  "item.mstuff.typhorite_ingot": "Typhorite Ingot",
-  "item.mstuff.typhorite_scrap": "Typhorite Scrap",
   "block.mstuff.typhorite_ore": "Typhorite Ore",
 
   "item.mstuff.typhorite_axe": "Typhorite Axe",

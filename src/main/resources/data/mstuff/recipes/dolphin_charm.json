@@ -1,20 +1,20 @@
 {
     "type": "crafting_shaped",
     "pattern": [
-        "QQQ",
-        "QPQ",
-        "QQQ"
+        "LLL",
+        "LHL",
+        "LLL"
     ],
     "key": {
-        "P": {
+        "H": {
             "item": "minecraft:heart_of_the_sea"
         },
-        "Q": {
+        "L": {
             "item": "mstuff:dolphin_leather"
         }
     },
     "result": {
-        "item": "minecraft:dolphin_charm",
+        "item": "mstuff:dolphin_charm",
         "count": 1
     }
 }
