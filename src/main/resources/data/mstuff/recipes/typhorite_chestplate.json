@@ -1,12 +1,12 @@
 {
 	"type": "minecraft:smithing",
 	"base": {
-		"item": "mstuff:sea_helmet"
+		"item": "mstuff:sea_chestplate"
 	},
 	"addition": {
 		"item": "mstuff:typhorite_ingot"
 	},
 	"result": {
-		"item": "mstuff:typhorite_helmet"
+		"item": "mstuff:typhorite_chestplate"
 	}
 }

@@ -50,6 +50,11 @@ public class ModItems {
     public static final Item TYPHORITE_PICKAXE = new PickaxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_AXE = new AxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 9, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
 
+    public static final Item SEA_SWORD = new SwordItem(SeaMaterial.SeaToolMaterial.SEA, 8, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
+    public static final Item SEA_SHOVEL = new ShovelItem(SeaMaterial.SeaToolMaterial.SEA, 5, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item SEA_PICKAXE = new PickSubclass(SeaMaterial.SeaToolMaterial.SEA, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item SEA_AXE = new AxSubclass(SeaMaterial.SeaToolMaterial.SEA, 9, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+
     public static void RegisterItems(){
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "ceviche"), CEVICHE);
@@ -90,6 +95,11 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_shovel"), TYPHORITE_SHOVEL);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_pickaxe"), TYPHORITE_PICKAXE);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_axe"), TYPHORITE_AXE);
+
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "sea_sword"), SEA_SWORD);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "sea_shovel"), SEA_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "sea_pickaxe"), SEA_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "sea_axe"), SEA_AXE);
 
     }
 }
