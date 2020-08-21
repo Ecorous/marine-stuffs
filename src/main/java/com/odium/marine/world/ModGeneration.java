@@ -1,4 +1,4 @@
-package com.odium.marine.world;
+/* package com.odium.marine.world;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.registry.RegistryEntryAddedCallback;
@@ -17,3 +17,4 @@ public class ModGeneration implements ModInitializer
     }
 
 }
+*/
