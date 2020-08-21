@@ -23,19 +23,16 @@ public class TyphoriteOre implements ModInitializer {
                                     3 //Ore vein size
                             )).createDecoratedFeature(
                             Decorator.COUNT_RANGE.configure(new RangeDecoratorConfig(
-                                    6, //Number of veins per chunk
-                                    0, //Bottom Offset
-                                    24, //Min y level
-                                    63 //Max y level
+                                    2,
+                                    0,
+                                    24,
+                                    63
                             ))));
         }
     }
     @Override
     public void onInitialize() {
-        //Loop over existing biomes
         Registry.BIOME.forEach(this::handleBiome);
-
-        //Listen for other biomes being registered
         RegistryEntryAddedCallback.event(Registry.BIOME).register((i, identifier, biome) -> handleBiome(biome));
     }
 }
