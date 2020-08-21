@@ -25,10 +25,10 @@ public class ModItems {
     public static final Item DOLPHIN_CHARM= new DolphinCharm();
     public static final Item CONDUIT_CHARM= new ConduitCharm();
 
-    public static final Item SEA_HELMET = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item SEA_CHESTPLATE = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item SEA_LEGGINGS = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item SEA_BOOTS = new ArmorItem(DeepSeaMaterial.SeaArmorMaterial.SEA, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SEA_HELMET = new ArmorItem(DeepSeaArmorMaterial.SeaArmorMaterial.SEA, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SEA_CHESTPLATE = new ArmorItem(DeepSeaArmorMaterial.SeaArmorMaterial.SEA, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SEA_LEGGINGS = new ArmorItem(DeepSeaArmorMaterial.SeaArmorMaterial.SEA, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SEA_BOOTS = new ArmorItem(DeepSeaArmorMaterial.SeaArmorMaterial.SEA, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
     public static final Item SHELL_HELMET = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SHELL_CHESTPLATE = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));

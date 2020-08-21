@@ -12,7 +12,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public class DeepSeaMaterial {
+public class DeepSeaArmorMaterial {
 
     public enum SeaArmorMaterial implements ArmorMaterial {
         SEA("sea", 33, new int[] {3 , 6, 8 , 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3f, 0f, () -> {
