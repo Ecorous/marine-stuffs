@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "mstuff:sea_axe"
+	},
+	"addition": {
+		"item": "mstuff:typhorite_ingot"
+	},
+	"result": {
+		"item": "mstuff:typhorite_axe"
+	}
+}
