@@ -4,27 +4,45 @@
   "item.mstuff.fish_bowl": "Fish Bowl",
   "item.mstuff.raw_calamari": "Raw Calamari",
   "item.mstuff.calamari": "Calamari",
+
   "item.mstuff.dolphin_leather": "Dolphin Leather",
+
   "item.mstuff.sea_helmet": "Deep Sea Helmet",
   "item.mstuff.sea_chestplate": "Deep Sea Chestplate",
   "item.mstuff.sea_leggings": "Deep Sea Leggings",
   "item.mstuff.sea_boots": "Deep Sea Boots",
+
   "item.mstuff.shell_boots": "Nautilus Shell Boots",
   "item.mstuff.shell_leggings": "Nautilus Shell Leggings",
   "item.mstuff.shell_chestplate": "Nautilus Shell Chestplate",
   "item.mstuff.shell_helmet": "Nautilus Shell Helmet",
+
   "item.mstuff.dolphin_charm": "Charm of Grace",
+
   "item.mstuff.prism_helm": "Prismarine Helm",
   "item.mstuff.prism_chest": "Prismarine Chain Chestplate",
   "item.mstuff.prism_legs": "Prismarine Chain Leggings",
   "item.mstuff.prism_boots": "Prismarine Boots",
+
   "item.mstuff.conduit_charm": "Conduit Charm",
-  "item.mstuff.typhorite_block": "Typhorite Block",
-  "item.mstuff.roasted_seagrass_block": "Roasted Seagrass Block",
-  "item.mstuff.kelp_block": "Kelp Block",
-  "item.mstuff.seagrass_block": "Seagrass Block",
-  "item.mstuff.scute_block": "Scute Block",
+
+  "block.mstuff.typhorite_block": "Typhorite Block",
+  "block.mstuff.roasted_seagrass_block": "Roasted Seagrass Block",
+  "block.mstuff.kelp_block": "Kelp Block",
+  "block.mstuff.seagrass_block": "Seagrass Block",
+  "block.mstuff.scute_block": "Scute Block",
+
   "item.mstuff.typhorite_ingot": "Typhorite Ingot",
   "item.mstuff.typhorite_scrap": "Typhorite Scrap",
-  "item.mstuff.typhorite_ore": "Typhorite Ore"
+  "block.mstuff.typhorite_ore": "Typhorite Ore",
+
+  "item.mstuff.typhorite_axe": "Typhorite Axe",
+  "item.mstuff.typhorite_pickaxe": "Typhorite Axe",
+  "item.mstuff.typhorite_sword": "Typhorite Sword",
+  "item.mstuff.typhorite_shovel": "Typhorite Shovel",
+
+  "item.mstuff.typhorite_helmet": "Typhorite Helmet",
+  "item.mstuff.typhorite_chestplate": "Typhorite Chestplate",
+  "item.mstuff.typhorite_leggings": "Typhorite Leggings",
+  "item.mstuff.typhorite_boots": "Typhorite Boots"
 }

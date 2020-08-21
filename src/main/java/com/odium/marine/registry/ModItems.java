@@ -1,12 +1,13 @@
 package com.odium.marine.registry;
 
 import com.odium.marine.Marine;
-import com.odium.marine.armors.*;
+import com.odium.marine.materials.*;
 import com.odium.marine.charms.ConduitCharm;
 import com.odium.marine.charms.DolphinCharm;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
@@ -31,15 +32,23 @@ public class ModItems {
     public static final Item SHELL_LEGGINGS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item SHELL_BOOTS = new ArmorItem(NautilusShellMaterial.ShellArmorMaterial.SHELL, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
+    public static final Item TYPHORITE_HELMET = new ArmorItem(TyphoriteArmorMaterial.TyphoriteArmMaterial.TYPHORITE, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+    public static final Item TYPHORITE_CHESTPLATE = new ArmorItem(TyphoriteArmorMaterial.TyphoriteArmMaterial.TYPHORITE, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+    public static final Item TYPHORITE_LEGGINGS = new ArmorItem(TyphoriteArmorMaterial.TyphoriteArmMaterial.TYPHORITE, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+    public static final Item TYPHORITE_BOOTS = new ArmorItem(TyphoriteArmorMaterial.TyphoriteArmMaterial.TYPHORITE, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+
     public static final Item PRISM_HELM = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.HEAD, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item PRISM_CHEST = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.CHEST, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item PRISM_LEGS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
-    public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
-    public static final Item TYPHORITE_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.RARE));
 
-    public static final Item Typhorite_Trident = new Item(new Item.Settings().group(ItemGroup.COMBAT).maxCount(1).maxDamage(12));
+    public static final Item TYPHORITE_SWORD = new SwordItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 8, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_SHOVEL = new ShovelItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_PICKAXE = new PickaxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_AXE = new AxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 9, 1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
 
     public static void RegisterItems(){
 
@@ -68,9 +77,18 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_legs"), PRISM_LEGS);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "prism_boots"), PRISM_BOOTS);
 
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_helmet"), TYPHORITE_HELMET);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_chestplate"), TYPHORITE_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_leggings"), TYPHORITE_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_boots"), TYPHORITE_BOOTS);
+
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_ingot"), TYPHORITE_INGOT);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_scrap"), TYPHORITE_SCRAP);
-        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_trident"), Typhorite_Trident);
+
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_sword"), TYPHORITE_SWORD);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_shovel"), TYPHORITE_SHOVEL);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_pickaxe"), TYPHORITE_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "typhorite_axe"), TYPHORITE_AXE);
 
     }
 }

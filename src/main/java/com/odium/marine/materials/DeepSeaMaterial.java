@@ -1,4 +1,4 @@
-package com.odium.marine.armors;
+package com.odium.marine.materials;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public class DeepSeaMaterial {
 
     public enum SeaArmorMaterial implements ArmorMaterial {
-        SEA("sea", 33, new int[] {3 , 6, 8 , 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0f, 0f, () -> {
+        SEA("sea", 33, new int[] {3 , 6, 8 , 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3f, 0f, () -> {
             return Ingredient.ofItems(Items.DARK_PRISMARINE);
         });
         private static final int[] baseDurability = {13, 15, 16, 11};

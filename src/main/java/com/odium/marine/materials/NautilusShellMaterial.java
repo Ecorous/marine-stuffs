@@ -1,4 +1,4 @@
-package com.odium.marine.armors;
+package com.odium.marine.materials;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

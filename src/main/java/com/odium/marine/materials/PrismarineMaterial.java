@@ -1,4 +1,4 @@
-package com.odium.marine.armors;
+package com.odium.marine.materials;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public class PrismarineMaterial {
     public enum PrismMaterial implements ArmorMaterial{
         PRISM("prism", 25, new int[] {2 , 3, 4 , 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0f, 0f, () -> {
-            return Ingredient.ofItems(Items.PRISMARINE);
+            return Ingredient.ofItems(Items.PRISMARINE_SHARD);
         });
         private static final int[] baseDurability = {13, 15, 16, 11};
         private final String name;
