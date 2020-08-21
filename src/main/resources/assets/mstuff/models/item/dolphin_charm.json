@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/dolphin_charm"
+    "layer0": "mstuff:item/dolphin_charm"
   }
 }

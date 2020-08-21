@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"NNN",
+		"NPN",
+		"N N"
+	],
+	"key": {
+		"P": {
+			"item": "mstuff:prism_legs"
+		},
+		"N": {
+			"item": "minecraft:nautilus_shell"
+		}
+	},
+	"result": {
+		"item": "mstuff:sea_leggings",
+		"count": 1
+	}
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/conduit_charm"
+    "layer0": "mstuff:item/conduit_charm"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/roasted_seagrass"
+    "layer0": "mstuff:item/roasted_seagrass"
   }
 }

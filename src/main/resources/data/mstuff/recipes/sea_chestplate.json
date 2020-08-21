@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"NPN",
+		"NNN",
+		"NNN"
+	],
+	"key": {
+		"P": {
+			"item": "mstuff:prism_chest"
+		},
+		"N": {
+			"item": "minecraft:nautilus_shell"
+		}
+	},
+	"result": {
+		"item": "mstuff:sea_chestplate",
+		"count": 1
+	}
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/calamari"
+    "layer0": "mstuff:item/calamari"
   }
 }

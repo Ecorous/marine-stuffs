@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/prism_legs"
+    "layer0": "mstuff:item/prism_legs"
   }
 }

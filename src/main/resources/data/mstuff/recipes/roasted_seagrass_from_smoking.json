@@ -1,0 +1,9 @@
+{
+  "type": "smoking",
+  "ingredient": {
+    "item": "minecraft:seagrass"
+  },
+  "result": "mstuff:roasted_seagrass",
+  "experience": 0.2,
+  "cookingtime": 50
+}

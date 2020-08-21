@@ -1,0 +1,9 @@
+{
+  "type": "smoking",
+  "ingredient": {
+    "item": "mstuff:raw_calamari"
+  },
+  "result": "mstuff:calamari",
+  "experience": 0.5,
+  "cookingtime": 50
+}

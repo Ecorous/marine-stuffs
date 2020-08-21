@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "mstuff:items/shell_chestplate"
+    "layer0": "mstuff:item/shell_chestplate"
   }
 }

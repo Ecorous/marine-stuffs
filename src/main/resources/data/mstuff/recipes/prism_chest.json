@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"S S",
+		"CSC",
+		"SCS"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:prismarine_crystal"
+		},
+		"S": {
+			"item": "minecraft:prismarine_shard"
+		}
+	},
+	"result": {
+		"item": "mstuff:prism_chest",
+		"count": 1
+	}
+}

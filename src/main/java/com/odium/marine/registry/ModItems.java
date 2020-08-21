@@ -52,10 +52,10 @@ public class ModItems {
     public static final Item TYPHORITE_PICKAXE = new PickaxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_AXE = new AxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 9, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
 
-    public static final Item SEA_SWORD = new SwordItem(SeaMaterial.SeaToolMaterial.SEA, 8, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
-    public static final Item SEA_SHOVEL = new ShovelItem(SeaMaterial.SeaToolMaterial.SEA, 5, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
-    public static final Item SEA_PICKAXE = new PickSubclass(SeaMaterial.SeaToolMaterial.SEA, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
-    public static final Item SEA_AXE = new AxSubclass(SeaMaterial.SeaToolMaterial.SEA, 9, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item SEA_SWORD = new SwordItem(SeaMaterial.SeaToolMaterial.SEA, 6, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
+    public static final Item SEA_SHOVEL = new ShovelItem(SeaMaterial.SeaToolMaterial.SEA, 3, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item SEA_PICKAXE = new PickSubclass(SeaMaterial.SeaToolMaterial.SEA, 3, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    public static final Item SEA_AXE = new AxSubclass(SeaMaterial.SeaToolMaterial.SEA, 7, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
 
     public static void RegisterItems(){
 
