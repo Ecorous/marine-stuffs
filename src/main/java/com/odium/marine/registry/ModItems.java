@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item CALAMARI = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(6).saturationModifier(6).build()));
     public static final Item RAW_CALAMARI = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(1).build()));
     public static final Item FISH_BOWL = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(12).saturationModifier(14).build()));
+    public static final Item ROASTED_SEAGRASS = new Item(new Item.Settings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(1).saturationModifier(1).build()));
 
     public static final Item DOLPHIN_LEATHER = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
     public static final Item TYPHORITE_INGOT = new Item(new Item.Settings().group(ItemGroup.MATERIALS).rarity(Rarity.EPIC));
@@ -45,6 +46,7 @@ public class ModItems {
     public static final Item PRISM_LEGS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.LEGS, (new Item.Settings().group(ItemGroup.COMBAT)));
     public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
+
     public static final Item TYPHORITE_SWORD = new SwordItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 8, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_SHOVEL = new ShovelItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_PICKAXE = new PickaxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
@@ -62,6 +64,7 @@ public class ModItems {
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "calamari"), CALAMARI);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "raw_calamari"), RAW_CALAMARI);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "fish_bowl"), FISH_BOWL);
+        Registry.register(Registry.ITEM, new Identifier(Marine.ID, "roasted_seagrass"), ROASTED_SEAGRASS);
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "dolphin_leather"), DOLPHIN_LEATHER);
 
         Registry.register(Registry.ITEM, new Identifier(Marine.ID, "dolphin_charm"), DOLPHIN_CHARM);
