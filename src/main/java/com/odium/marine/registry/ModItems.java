@@ -47,7 +47,7 @@ public class ModItems {
     public static final Item PRISM_BOOTS = new ArmorItem(PrismarineMaterial.PrismMaterial.PRISM, EquipmentSlot.FEET, (new Item.Settings().group(ItemGroup.COMBAT)));
 
 
-    public static final Item TYPHORITE_SWORD = new SwordItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 8, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
+    public static final Item TYPHORITE_SWORD = new SwordItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 6, -2.4f, new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_SHOVEL = new ShovelItem(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -2.8f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_PICKAXE = new PickaxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 5, -3f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
     public static final Item TYPHORITE_AXE = new AxeSubclass(TyphoriteMaterial.TyphoriteToolMaterial.TYPHORITE, 9, -1.0f, new Item.Settings().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
